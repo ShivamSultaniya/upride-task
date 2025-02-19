@@ -1,7 +1,5 @@
 "use client";
 
-import Image from "next/image";
-
 export default function GallerySection() {
   return (
     <div className="bg-gray-100">

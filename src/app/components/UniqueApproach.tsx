@@ -1,5 +1,3 @@
-import { FaChalkboardTeacher, FaCar, FaLayerGroup } from "react-icons/fa";
-
 const UniqueApproach = () => {
   return (
     <section className="bg-gray-100 py-16 px-4 w-full flex flex-col items-center">
