@@ -7,7 +7,7 @@ export default function Navbar() {
         <>
             <div className="flex justify-around h-[3.25rem] bg-white items-center">
                 <div>
-                    <Image width={1} height={1} src="upride.svg" alt="" className="h-8"/>
+                    <Image width={100} height={100} src="upride.svg" alt="" className="h-8"/>
                 </div>
 
                 <div className="flex gap-x-[4rem] text-sm h-full items-center">

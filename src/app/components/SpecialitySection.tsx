@@ -16,7 +16,7 @@ const faqs = [
 ];
 
 export default function SpecialitySection() {
-  const [openIndex, setOpenIndex] = useState<any>(0);
+  const [openIndex, setOpenIndex] = useState<number>(0);
 
   return (
     <div className="bg-gray-100 flex flex-col items-center w-full">
@@ -34,7 +34,7 @@ export default function SpecialitySection() {
             <div key={index} className=" py-4 w-full">
               <button
                 className="flex gap-4 items-center w-full text-left font-semibold text-lg"
-                onClick={() => setOpenIndex(openIndex === index ? null : index)}
+                onClick={() => setOpenIndex(openIndex === index ? 0 : index)}
               >
                 {openIndex === index ? <Minus size={20} /> : <Plus size={20} />}
                 {faq.question}

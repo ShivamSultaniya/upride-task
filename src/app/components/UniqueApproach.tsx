@@ -9,7 +9,7 @@ const UniqueApproach = () => {
                 <h3 className="bg-gradient-to-r from-[#E42525] via-[#EE907E] to-[#E42525] bg-clip-text text-transparent font-bold text-lg">OUR UNIQUE APPROACH</h3>
                 <h2 className="text-3xl font-extrabold text-gray-900 mt-2">Driving Smarter, Learning Better</h2>
                 <p className="text-gray-600 mt-3 max-w-2xl">
-                At Upride, we don't just teach driving—we redefine it. Here's how we make your learning journey exceptional.
+                At Upride, we don&apos;t just teach driving—we redefine it. Here&apos;s how we make your learning journey exceptional.
                 </p>
             </div>
             <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">

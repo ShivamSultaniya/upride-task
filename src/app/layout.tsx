@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Anybody, Geist_Mono } from "next/font/google";
+import { Anybody } from "next/font/google";
 import "./globals.css";
 
 const anybodyLato = Anybody({
