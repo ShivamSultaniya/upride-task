@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Plus, Minus } from "lucide-react";
+import Image from "next/image"
 
 const faqs = [
   {
@@ -47,7 +48,9 @@ export default function SpecialitySection() {
 
         {/* Right Section - Image (Fixed Size) */}
         <div className="w-full md:w-1/2 flex justify-center">
-          <img
+          <Image 
+            height = {1} 
+            width = {1000}
             src="/drivingWomen.svg"
             alt="Woman driving with GPS"
             className="rounded-lg shadow-md object-cover h-[18rem]"

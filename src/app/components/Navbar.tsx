@@ -1,12 +1,13 @@
 import { IoMdSearch } from "react-icons/io";
 import { IoPerson } from "react-icons/io5";
+import Image from "next/image"
 
 export default function Navbar() {
     return (
         <>
             <div className="flex justify-around h-[3.25rem] bg-white items-center">
                 <div>
-                    <img src="upride.svg" alt="" className="h-8"/>
+                    <Image width={1} height={1} src="upride.svg" alt="" className="h-8"/>
                 </div>
 
                 <div className="flex gap-x-[4rem] text-sm h-full items-center">

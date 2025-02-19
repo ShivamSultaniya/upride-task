@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image"
 
 export default function GallerySection() {
   return (
@@ -13,7 +14,7 @@ export default function GallerySection() {
           Visit Our Instagram
         </button>
         
-        <img src="gallery.svg" alt="" />
+        <Image src="gallery.svg" alt="" width={1000} height={1000}/>
       
       </section>
     </div>

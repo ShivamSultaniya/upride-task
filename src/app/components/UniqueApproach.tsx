@@ -1,3 +1,6 @@
+import Image from "next/image"
+
+
 const UniqueApproach = () => {
   return (
     <section className="bg-gray-100 py-16 px-4 w-full flex flex-col items-center">
@@ -22,7 +25,7 @@ const UniqueApproach = () => {
 function Cards({heading,text,image} : {heading:string, text:string, image:string}) {
     return (
         <div className="bg-[#F0E1E1] p-6 rounded-2xl">
-            <img src={image} alt="" className="w-8 h-8"/>
+            <Image height={1} width={1} src={image} alt="" className="w-8 h-8"/>
             <h4 className="font-bold text-sm mt-4">{heading}</h4>
             <p className="text-gray-600 mt-2 text-sm">
                 {text}

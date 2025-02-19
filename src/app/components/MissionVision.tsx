@@ -1,3 +1,4 @@
+import Image from "next/image"
 
 export default function MissionVision(){
   return (
@@ -6,7 +7,7 @@ export default function MissionVision(){
         {/* Mission Section */}
         <div className="flex flex-col md:flex-row items-center gap-[7rem] h-[20rem]">
           <div className="w-full md:w-1/2">
-            <img src="/driving5.svg" alt="Driving Lesson" className="rounded-lg" />
+            <Image height={4000} width={4000} src="/driving5.svg" alt="Driving Lesson" className="rounded-lg" />
           </div>
           <div className="w-full md:w-1/2">
             <h2 className="text-red-500 text-sm font-bold uppercase">Mission</h2>
@@ -20,7 +21,7 @@ export default function MissionVision(){
         {/* Vision Section */}
         <div className="flex flex-col md:flex-row-reverse items-center gap-[7rem]">
           <div className="w-full md:w-1/2">
-            <img src="/driving6.svg" alt="Driving" className="rounded-lg" />
+            <Image height={4000} width={4000} src="/driving6.svg" alt="Driving" className="rounded-lg" />
           </div>
           <div className="w-full md:w-1/2">
             <h2 className="text-red-500 text-sm font-bold uppercase">Vision</h2>

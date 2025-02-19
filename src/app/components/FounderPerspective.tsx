@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 export default function FounderPerspective() {
   return (
     <div className="flex flex-col items-center text-center py-12 px-6">
@@ -10,10 +10,12 @@ export default function FounderPerspective() {
 
       {/* Image with overlay */}
       <div className="mt-6 max-w-6xl w-full">
-        <img
+        <Image
           src="/FounderL.svg" // Replace with actual path
           alt="Founder Holding L Sign"
           className="rounded-lg shadow-lg w-full"
+          width = {1}
+          height = {1}
         />
       </div>
     </div>

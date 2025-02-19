@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
     return (
         <div className="bg-gray-100 w-full">
@@ -6,7 +8,7 @@ export default function Footer() {
                     {/* Left Section - Brand Info */}
                     <div>
                         <div className="flex items-center gap-2">
-                            <img src="/upride.svg" alt="Upride Logo" className="w-[8rem]" />
+                            <Image src="/upride.svg" alt="Upride Logo" className="w-[8rem]" width={1} height={1}/>
                         </div>
                         <p className="text-gray-600 mt-2 text-[0.75rem]">
                             Learn Driving and get a driving license.
