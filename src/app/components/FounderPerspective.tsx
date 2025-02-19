@@ -5,7 +5,7 @@ export default function FounderPerspective() {
       {/* Title */}
       <h3 className="bg-gradient-to-r from-[#E42525] via-[#EE907E] to-[#E42525] bg-clip-text text-transparent font-bold text-sm">Founder Perspective</h3>
       <h2 className="text-2xl md:text-3xl font-bold max-w-2xl mt-2">
-        From the Founder's Wheel - The Vision Behind Upride
+        From the Founder&apos;s Wheel - The Vision Behind Upride
       </h2>
 
       {/* Image with overlay */}

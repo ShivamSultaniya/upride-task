@@ -7,11 +7,6 @@ const anybodyLato = Anybody({
   weight: ['400','700'],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
   title: "Upride Project",
   description: "React Internship Assignment at Upride: UI Development and Design Challenge ",

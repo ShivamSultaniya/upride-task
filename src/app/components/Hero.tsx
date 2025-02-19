@@ -33,7 +33,7 @@ export default function Hero(){
               <p className="text-[#191818] mt-4 max-w-3xl mx-auto z-10 relative">
                 Upride began with a simple yet powerful idea: to redefine how India learns to drive. Born from the belief that
                 every individual deserves access to safe, reliable, and empowering driver education, Upride has grown into a
-                movement that's transforming lives across the country.
+                movement that&apos;s transforming lives across the country.
               </p>
             </div>
           </div>
@@ -52,7 +52,7 @@ export default function Hero(){
                 <p className="text-gray-600 mt-4">
                 At Upride, we realized driving education in India was stuck in reverse. From unprofessional instructors to outdated methods
                 and a lack of focus on safety, traditional driving schools were failing learners. In 2023, our founders set out to rewrite the
-                rules of driver education. That's how Upride was born—with a mission to make learning to drive smarter, safer, and accessible to all.
+                rules of driver education. That&apos;s how Upride was born—with a mission to make learning to drive smarter, safer, and accessible to all.
                 </p>
             </div>
           </div>

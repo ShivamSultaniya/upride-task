@@ -17,7 +17,7 @@ const faqs = [
 ];
 
 export default function FAQSection() {
-  const [openIndex, setOpenIndex] = useState<any>(0);
+  const [openIndex, setOpenIndex] = useState<number>(0);
 
   return (
     <div className="bg-gray-100">
@@ -30,7 +30,7 @@ export default function FAQSection() {
             <div key={index} className="border-b border-[#EBCDC79E] py-4">
               <button
                 className="flex justify-between items-center w-full text-left font-semibold text-lg"
-                onClick={() => setOpenIndex(openIndex === index ? null : index)}
+                onClick={() => setOpenIndex(openIndex === index ? -1 : index)}
               >
                 {faq.question}
                 {openIndex === index ? (
